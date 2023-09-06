@@ -3,21 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 const Button = (props) => {
-  return <button value={props.children}>Reset</button>;
+  return <button onClick={props.reset} value={props.children}>Reset</button>;
 };
 
-const Application = () => {
+const Application = (props) => {
 
   // your code here
 
   const reset = () => {
-    console.log("reset");
+    console.log("Reset! 🤠");
     // your code here
   };
 
   return (
     <main>
-      <Button />
+      <Button reset={reset}/>
       <h1>Hello React! 🌞</h1>
     </main>
   );
