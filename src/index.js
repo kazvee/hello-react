@@ -17,6 +17,7 @@ const Application = (props) => {
 
   return (
     <main>
+      <input placeholder='Please type in your name'></input>
       <Button reset={reset} name={setName}/>
       <h1>Hello {name}! 🌞</h1>
     </main>
