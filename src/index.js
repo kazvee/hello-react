@@ -8,7 +8,7 @@ const Button = (props) => {
 
 const Application = (props) => {
 
-  // your code here
+  const [name, setName] = useState("Sunshine")  
 
   const reset = () => {
     console.log("Reset! 🤠");
@@ -17,8 +17,8 @@ const Application = (props) => {
 
   return (
     <main>
-      <Button reset={reset}/>
-      <h1>Hello React! 🌞</h1>
+      <Button reset={reset} name={setName}/>
+      <h1>Hello {name}! 🌞</h1>
     </main>
   );
 };
