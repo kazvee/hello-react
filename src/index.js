@@ -25,7 +25,7 @@ const Application = () => {
         placeholder='Please type in your name'
       ></input>
       <Button reset={reset} name={setName} />
-      <h1>Hello {name}! 🌞</h1>
+      {name && <h1>Hello {name}! 🌞</h1>}
     </main>
   );
 };
