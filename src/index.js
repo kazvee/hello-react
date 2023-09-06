@@ -10,12 +10,11 @@ const Button = (props) => {
   );
 };
 
-const Application = (props) => {
+const Application = () => {
   const [name, setName] = useState('');
 
   const reset = () => {
-    console.log('Reset! 🤠');
-    // your code here
+    setName('');
   };
 
   return (
