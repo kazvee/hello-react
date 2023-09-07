@@ -1,0 +1,58 @@
+body {
+  background-color: #f000b5;
+  color: #48dbfb;
+  display: flex;
+  font-family: "Permanent Marker", sans-serif;
+  justify-content: center;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+}
+
+input {
+  border: 0;
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 2rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  background-color: #ce009b;
+  border: 0;
+  color: #48dbfb;
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 4px;
+  margin: 2rem 0;
+  padding: 1rem;
+  width: 100%;
+}
+
+button:hover {
+  background-color: darken(#ce009b, 10%);
+  cursor: pointer;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+h1 {
+  color: #48dbfb;
+  font-size: 3rem;
+  letter-spacing: 8px;
+  word-break: break-all;
+}
+
+button,
+input {
+  max-width: 484px;
+}
