@@ -7,6 +7,12 @@ Hello React is a small project designed to reinforce understanding of fundamenta
 - Conditional rendering
 - Creating controlled input components
 
+## Final Product
+
+**Video of Functionality:**
+
+https://github.com/kazvee/hello-react/assets/109990289/4abe0e96-5625-4495-a2c4-a1bff15def0f
+
 ## Purpose
 
 This project was a coding challenge completed by [me](https://github.com/kazvee) as part of my learnings at [Lighthouse Labs](https://www.lighthouselabs.ca/en/web-development-flex-program).  
